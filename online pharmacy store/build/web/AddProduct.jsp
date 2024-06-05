@@ -34,7 +34,7 @@
 		PreparedStatement ps3=null;
 		try{
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase","root","jaybarot2808");
+			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase","root","password");
 			ps1=conn.prepareStatement(query1);
 			ps1.setString(1,prid);
 			rs=ps1.executeQuery();
