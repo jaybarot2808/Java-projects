@@ -1,0 +1,11 @@
+insert into seller (sid, sname, pass, address, phno) values ('0467408785', 'Eleanora', '12345', 'Apt 1397', '3416027791');
+insert into seller (sid, sname, pass, address, phno) values ('9628226266', 'Edgardo', '12345', 'Room 950', '9506031762');
+insert into seller (sid, sname, pass, address, phno) values ('8563784579', 'Justine', '12345', 'Room 1583', '2512862652');
+insert into seller (sid, sname, pass, address, phno) values ('1999813812', 'Marv', '12345', 'PO Box 81740', '2416896743');
+insert into seller (sid, sname, pass, address, phno) values ('2442356821', 'Adelheid', '12345', '14th Floor', '9602807506');
+insert into seller (sid, sname, pass, address, phno) values ('5719266380', 'Marcelia', '12345', 'PO Box 89583', '5109500756');
+insert into seller (sid, sname, pass, address, phno) values ('7273031437', 'Pieter', '12345', 'Room 75', '2745582845');
+insert into seller (sid, sname, pass, address, phno) values ('0163252300', 'Jonie', '12345', 'PO Box 34602', '2779134148');
+insert into seller (sid, sname, pass, address, phno) values ('6343514058', 'Sigfried', '12345', 'Suite 33', '2672794153');
+insert into seller (sid, sname, pass, address, phno) values ('9580689172', 'Eleanora', '12345', 'PO Box 49668', '3463248906');
+insert into seller (sid, sname, pass, address, phno) values ('1617031828', 'Maximilianus', '12345', 'PO Box 1511', '2624089723');

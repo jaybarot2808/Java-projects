@@ -1,0 +1,10 @@
+insert into inventory (pid, pname, quantity, sid) values ('0828234787', 'Medicated', 100,'0467408785');
+insert into inventory (pid, pname, quantity, sid) values ('3450557068', 'Nasal Deco', 10,'9628226266');
+insert into inventory (pid, pname, quantity, sid) values ('8241486359', 'Lomotil', 200,'8563784579');
+insert into inventory (pid, pname, quantity, sid) values ('0512906823', 'Tetanus', 30,'1999813812');
+insert into inventory (pid, pname, quantity, sid) values ('7279368875', 'Metformin', 100,'2442356821');
+insert into inventory (pid, pname, quantity, sid) values ('8196562276', 'Rite', 52,'0467408785');
+insert into inventory (pid, pname, quantity, sid) values ('0106828509', 'Wormwood', 12,'7273031437');
+insert into inventory (pid, pname, quantity, sid) values ('4322432611', 'GAMMAGARD', 20,'0163252300');
+insert into inventory (pid, pname, quantity, sid) values ('2265031887', 'MALEATE', 22,'6343514058');
+insert into inventory (pid, pname, quantity, sid) values ('1967478813', 'Isopropyl', 77,'9580689172');
