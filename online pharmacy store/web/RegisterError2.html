@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+	<div class="navbar bg-base-100 px-20">
+		<div class="navbar-start">
+			<a class="btn btn-ghost font-bold tracking-wide text-xl" href="/online_pharmacy_store/index.html">QuickMeds</a>
+		</div>
+		<div class="navbar-center hidden lg:flex">
+			
+		</div>
+		<div class="navbar-end">
+			<a class="btn">Get started</a>
+		</div>
+	</div>
+	<div class="flex justify-around w-full gap-32 align-center p-10">
+		<div class="card bg-base-100 shadow-lg  flex-col w-1/4 h-fit m-5 p-7 self-center gap-5">
+			<form action="Register.jsp" method="post">
+				<h2 class="text-2xl font-bold text-center mb-4">Register New Customer</h2>
+				<input class="input input-bordered input-primary block my-4 w-full" type="text" name="fname" placeholder="Enter First Name" required>
+				<input class="input input-bordered input-primary block my-4 w-full" type="text" name="lname" placeholder="Enter Last Name" required>
+				<input class="input input-bordered input-primary block my-4 w-full" type="text" name="email" placeholder="Enter Email ID" required>
+				<input class="input input-bordered input-primary block my-4 w-full" type="text" name="phno" placeholder="Enter Phone Number" onkeypress="return event.charCode>= 48 && event.charCode<= 57" required>
+				<input class="input input-bordered input-primary block my-4 w-full" type="text" name="address" placeholder="Enter Address" required>
+				<input class="input input-bordered input-primary block my-4 w-full" type="text" name="uid" placeholder="Enter Customer ID" required>
+				<input class="input input-bordered input-primary block my-4 w-full" type="password" name="pass1" placeholder="Enter Password" required>
+				<input class="input input-bordered input-primary block my-4 w-full" type="password" name="pass2" placeholder="Retype Password" required>
+				 <p class="text-error font-semibold">Passwords don't match</p>
+				<input class="btn btn-primary btn-active block my-4 w-full" type="submit" value="Submit">
+			</form>
+		</div>
+		<img alt="image of pharmacy" src="pharmacy.png" class="w-1/2 h-1/2">
+	</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Product</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+	<div class="navbar bg-base-100 px-20">
+		<div class="navbar-start">
+			<a class="btn btn-ghost font-bold tracking-wide text-xl" href="/pharmacy-project/Index.html">QuickMeds</a>
+		</div>
+		<div class="navbar-center hidden lg:flex">
+			<ul class="menu menu-horizontal px-1">
+				<li><a href="SellerHomepage.jsp">HOME</a></li>
+				<li><a href="AddProduct.html">ADD</a></li>
+				<li><a href="AddInventory.jsp">RESTOCK</a></li>
+				<li><a href="SellerOrders.jsp">ORDERS</a></li>
+			</ul>
+		</div>
+		<div class="navbar-end">
+			<a class="btn" href="Logout.jsp">Logout</a>
+		</div>
+	</div>
+
+
+	<form action="AddProduct.jsp" method="post" class="mx-auto">
+		<div class="card bg-base-100 shadow-lg  flex-col w-1/4 h-fit mx-auto mt-10 p-7">
+			<h2 class="text-center font-bold text-2xl">Add product</h2>
+			<label class="my-3">
+				Enter Product Name
+				<input class="input input-bordered input-primary w-full" type='text' name='prname' required>
+			</label>
+			<label class="my-3">
+				Enter Product ID
+				<input class="input input-bordered input-primary w-full" type='text' name='prid' required>
+			</label>
+			<label class="my-3">
+				Enter Manufacturer Name
+				<input class="input input-bordered input-primary w-full" type='text' name='mfname' required>
+			</label>
+			<label class="my-3">
+				Enter Manufacture Date
+				<input class="input input-bordered input-primary w-full" type="text" name="mdate" placeholder="YYYY-MM-DD" onkeypress="return event.charCode>= 48 && event.charCode<= 57 || event.charCode==45" required>
+			</label>
+			<label class="my-3">
+				Enter Expiry Date
+				<input class="input input-bordered input-primary w-full" type="text" name="edate" placeholder="YYYY-MM-DD" onkeypress="return ((event.charCode>= 48 && event.charCode<= 57) || event.charCode==45)" required>
+			</label>
+			<label class="my-3">
+				Quantity
+				<input class="input input-bordered input-primary w-full" type="text" name="quantity" onkeypress="return event.charCode>= 48 && event.charCode<= 57" required>
+			</label>
+			<label class="my-3">
+				Price
+				<input class="input input-bordered input-primary w-full" type="text" name="price" onkeypress="return event.charCode>= 48 && event.charCode<= 57" required>
+			</label>
+			<input class="btn btn-primary btn-active  w-full" type="submit" value="Add">
+		</div>
+	</form>
+
+</body>
+</html>

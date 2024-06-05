@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html data-theme="light">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.6/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+
+<body>
+	<div class="navbar bg-base-100 px-20">
+		<div class="navbar-start">
+			<a class="btn btn-ghost font-bold tracking-wide text-xl" href="/online_pharmacy_store/index.html">QuickMeds</a>
+		</div>
+		<div class="navbar-center hidden lg:flex"></div>
+		<div class="navbar-end">
+			<a class="btn">Get started</a>
+		</div>
+	</div>
+    <form action="Login.jsp" method="post">
+        <div class="flex justify-around w-full gap-32 align-center p-10">
+            <div class="card bg-base-100 shadow-lg  flex-col w-1/4 h-fit m-5 p-7 self-center">
+                <h2 class="text-5xl font-bold text-center mb-4">Login</h2>
+                <select name="utype" required class="my-4 select select-primary w-full">
+                    <option value="" selected disabled>Select Account Type</option>
+                    <option value="1">Customer</option>
+                    <option value="2">Seller</option>
+                </select>	
+                <input class="input input-bordered input-primary block my-4 w-full" type="text" name="userid"
+                    placeholder="Enter User ID" required>
+                <input class="input input-bordered input-primary block my-4 w-full" type="password" name="password"
+                    placeholder="Enter Password" required>
+                 <p class="text-error font-semibold">Invalid Password</p>
+                <input class="btn btn-primary btn-active block my-4 w-full" type="submit" value="Login">
+            </div>
+         	<img alt="image of pharmacy" src="pharmacy.png" class="w-1/2 h-1/2">
+        </div>
+    </form>
+</body>
+
+</html>
