@@ -38,7 +38,7 @@
 		java.sql.Connection conn = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "jaybarot2808");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/drugdatabase", "root", "password");
 			cs = conn.prepareCall("call getsellerorders(?)");
 			cs.setString(1, guid);
 			rs = cs.executeQuery();
